@@ -15,17 +15,20 @@ public class Test3 {
         list.add("bonjour");
         ListIterator<String> iterator = list.listIterator();
         while (iterator.hasNext()) {
-//            iterator.add("+");
+            //iterator.add("+");
+
+            //修改迭代器内容set()时，不能写在next()之前，
 //            iterator.set("+"); //error
-            System.out.print(iterator.next() + ", ");
+            System.out.print(iterator.next() + ", ");  //hello, bonjour,
 //            iterator.add("+");
+//            System.out.print(iterator.next() + ", ");  //hello, bonjour,
             iterator.set("+");
             //对集合进行遍历并删除,用迭代器
             //iterator.remove();
         }
         System.out.println();
         for (String item : list) {
-            System.out.print(item + ", ");
+            System.out.print(item + ", ");  //+, +,
         }
     }
 }
