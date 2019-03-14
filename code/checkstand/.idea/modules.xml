@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/checkstand.iml" filepath="$PROJECT_DIR$/checkstand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new_check_stand/new_check_stand.iml" filepath="$PROJECT_DIR$/new_check_stand/new_check_stand.iml" />
     </modules>
   </component>
 </project>
