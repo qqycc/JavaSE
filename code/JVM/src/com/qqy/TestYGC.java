@@ -14,10 +14,6 @@ public class TestYGC {
     public static void testAllocation() {
         byte[] allocation1, allocation2, allocation3, allocation4;
         //1:1的部分放不下2MB，放入老年代，最大20M，老年代能放下
-        //6MB
-        //YG
-        //10
-        //8:1:1
         allocation1 = new byte[2 * _1MB];
         allocation2 = new byte[2 * _1MB];
         allocation3 = new byte[2 * _1MB];
