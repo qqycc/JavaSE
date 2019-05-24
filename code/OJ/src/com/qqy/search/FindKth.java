@@ -2,6 +2,9 @@ package com.qqy.search;
 
 /**
  * 有一个整数数组，根据快排的思路，找出第K大个数
+ * 方法一
+ *  思路
+ *      先将整个数组快排，然后找出第K大个
  * Author:qqy
  */
 public class FindKth {
