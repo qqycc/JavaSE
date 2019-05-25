@@ -2,7 +2,8 @@ package com.qqy.calculation;
 
 
 /**
-* 商店只提供6个苹果每袋和8个苹果每袋的包装（包装不可拆分）。
+ * 90%
+ * 商店只提供6个苹果每袋和8个苹果每袋的包装（包装不可拆分）。
  * 若只想购买恰好n个苹果，想购买尽量少的袋数方便携带，输出最少购买的袋数。
  * 如果不能购买恰好n个苹果，将不会购买，输出-1。
  * 思路
@@ -15,7 +16,7 @@ package com.qqy.calculation;
  */
 public class BuyApple {
     public static void main(String[] args) {
-       buy(2);
+       buy(20);
     }
     public static void buy(int a){
         int count=0;
