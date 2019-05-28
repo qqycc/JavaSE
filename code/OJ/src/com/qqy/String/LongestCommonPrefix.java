@@ -1,4 +1,4 @@
-package com.qqy.String;
+package com.qqy.string;
 
 /**
  * 查找字符串数组中的最长公共前缀。

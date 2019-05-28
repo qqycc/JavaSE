@@ -1,4 +1,4 @@
-package com.qqy.String;
+package com.qqy.string;
 
 /**
  * 有一组数，对于其中任意两个数组，若前面一个大于后面一个数字，则这两个数字组成一个逆序对。

@@ -1,4 +1,4 @@
-package com.qqy.String;
+package com.qqy.string;
 
 /**
  * 给定一个 haystack 字符串和一个 needle 字符串，

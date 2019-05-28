@@ -1,4 +1,4 @@
-package com.qqy.Array;
+package com.qqy.array;
 
 /**
  * 给定一个排序数组，在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。

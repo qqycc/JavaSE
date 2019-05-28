@@ -1,4 +1,4 @@
-package com.qqy.Stack;
+package com.qqy.stack;
 
 import java.util.Stack;
 

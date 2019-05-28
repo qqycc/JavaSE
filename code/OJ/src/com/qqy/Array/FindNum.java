@@ -1,4 +1,4 @@
-package com.qqy.Array;
+package com.qqy.array;
 
 import java.util.LinkedList;
 import java.util.List;

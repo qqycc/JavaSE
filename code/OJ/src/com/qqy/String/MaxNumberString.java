@@ -1,4 +1,4 @@
-package com.qqy.String;
+package com.qqy.string;
 
 import java.util.Scanner;
 
