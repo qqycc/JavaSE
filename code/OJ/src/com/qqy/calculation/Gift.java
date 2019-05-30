@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 
  * 一个口袋总的容积是40
  * 有n个想要得到的物品，每个物品的体积分别是a1，a2....an。
  * 从中选出一些物体使得他们的总体积是40，有多少种不同的选择物品的方式。
