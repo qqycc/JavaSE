@@ -9,6 +9,14 @@ package com.qqy.List;
  * Author:qqy
  */
 public class Partition {
+    class ListNode {
+        int val;
+        ListNode next = null;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
     public ListNode partition(ListNode pHead, int x) {
         if(pHead==null||pHead.next==null){
             return pHead;
@@ -31,13 +39,5 @@ public class Partition {
         smallHead.next=bigList.next;
         return smallList.next;
     }
-}
 
-class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
-    }
 }
