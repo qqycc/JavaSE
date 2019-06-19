@@ -72,7 +72,12 @@ public class CompareStr {
                 map.put(ch, ++count);
 
                 map.put(ch,map.get(ch)+1);
-//                map.put(ch,++map.get(ch));
+
+//                map.put(ch, ++(map.get(ch)));
+
+                Integer m=new Integer(10);
+                m++;
+
             }
         }
         return map;
