@@ -24,8 +24,8 @@ public class PascalTriangle {
             int n=in.nextInt();
             int m=in.nextInt();
             System.out.println(pascal(n,m));
-            System.out.println(recursionPascal(n,m));
-            System.out.println(coefficient(n,m));
+//            System.out.println(recursionPascal(n,m));
+//            System.out.println(coefficient(n,m));
         }
     }
 
@@ -39,8 +39,6 @@ public class PascalTriangle {
             triangle[i][0] = 1;
             triangle[i][i] = 1;
             for (int j = 1; j < i; j++) {
-                if (m - 1 > i / 2) {
-                }
                 triangle[i][j] = triangle[i - 1][j - 1] + triangle[i - 1][j];
             }
         }
