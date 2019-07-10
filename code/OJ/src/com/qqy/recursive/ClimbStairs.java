@@ -28,19 +28,21 @@ public class ClimbStairs {
         return climbStairs(n-1)+climbStairs(n-2);
     }
 
+    //3阶
     public static int climbStairs1(int n) {
         List<Integer> list=new ArrayList<>();
         list.add(1);
         list.add(2);
-        int i=2;
+        list.add(4);
+        int i=3;
         for(;i<n;i++){
-            list.add(i,list.get(i-2)+list.get(i-1));
+            list.add(i,list.get(i-2)+list.get(i-1)+list.get(i-3));
         }
-        return list.get(n-1);
+        return list.get(n-1)%1000000007;
     }
 
     public static void main(String[] args) {
-        System.out.println(climbStairs(9));
-        System.out.println(climbStairs1(9));
+        System.out.println(climbStairs1(3));
+        System.out.println(climbStairs1(4));
     }
 }

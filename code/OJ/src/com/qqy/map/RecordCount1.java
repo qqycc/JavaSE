@@ -39,9 +39,6 @@ public class RecordCount1 {
             } else {
                 String cut = str.substring(str.length() - 16 - str.split(" ")[1].length());
                 if (!map.containsKey(cut)) {
-//                    count = map.get(str);
-//                    count++;
-//                    map.put(str, count);
                     map.put(cut,1);
                 }else {
                     if (list.contains(str)) {
