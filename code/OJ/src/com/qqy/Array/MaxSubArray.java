@@ -22,7 +22,7 @@ public class MaxSubArray {
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner;
+        Scanner in = new Scanner(System.in);
         while (in.hasNextLine()) {
             int num = Integer.parseInt(in.nextLine());
             String[] strs = in.nextLine().split(" ");
