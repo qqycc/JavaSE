@@ -3,7 +3,7 @@ package com.qqy.string;
 import java.util.Scanner;
 
 /**
- * 输出字符创str中连续最长的数字字符串
+ * 输出字符串str中连续最长的数字字符串
  * 思路：
  *      1.将字符串转换为字符数组
  *      2.判断字符是否为数字
