@@ -1,4 +1,4 @@
-package com.qqy.List;
+package com.qqy.list;
 
 
 /**

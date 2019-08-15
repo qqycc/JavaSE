@@ -1,4 +1,4 @@
-package com.qqy.List;
+package com.qqy.list;
 
 import java.util.ArrayList;
 import java.util.List;

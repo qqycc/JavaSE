@@ -1,4 +1,4 @@
-package com.qqy.List;
+package com.qqy.list;
 
 /**
  * 编写代码，以给定值×为基准将链表分割成两部分，所有小于x的结点排在大于或等于x的结点之前

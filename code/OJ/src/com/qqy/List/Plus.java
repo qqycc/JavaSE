@@ -1,4 +1,4 @@
-package com.qqy.List;
+package com.qqy.list;
 
 /**
  * 有两个用链表表示的整数，每个结点包含一个数位。这些数位是反向存放的，也就是个位排在链表的首部。
