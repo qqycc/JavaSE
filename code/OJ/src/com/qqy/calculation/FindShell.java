@@ -45,7 +45,7 @@ public class FindShell {
 //    public static long find(long x){
 //        int count=0;
 //        int i=2;
-//        List<Long> list=new ArrayList<>();
+//        list<Long> list=new ArrayList<>();
 //        while(count<=100000) {
 //            count++;
 //            list.add(4*x+3);
